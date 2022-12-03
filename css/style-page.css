@@ -1,0 +1,168 @@
+.main__event-photo {
+	width: 100%;
+	position:relative;
+	margin-top:64px;
+	
+}
+.event-img {
+	width:100%;
+	max-height:500px; 
+	object-fit: cover;
+}
+.event__title {
+	background-color: rgba(237, 27, 36, 0.6);
+	height:60px;
+	position: absolute;
+	bottom:64px;
+}
+h2 {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 33px;
+	letter-spacing: 0.01em;
+	color: #FFFFFF;
+	padding-right:16px;
+	padding-left:16px;
+	margin-top:12px;
+	margin-bottom:0px;
+}
+.main__event-text {
+	padding-top:16px;
+}
+.text {
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 170%;
+	letter-spacing: 0.02em;
+	text-indent: 40px;
+	color: #383737;
+	margin-top:20px;
+	margin-bottom:0;
+}
+.main__event-info {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width:100%;
+	padding-top:56px;
+	padding-bottom:64px;
+	height:18px;
+}
+.back-button {
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	letter-spacing: 0.02em;
+	color: #1C1C1C;
+	cursor: pointer;
+	transition: 0.25s linear;
+}
+
+.back-button:hover {
+	transition: 0.2s linear;
+	color:#ED1B24;
+}
+.event__info-right {
+	margin-left: auto;
+}
+.info-inline {
+	display: inline-block;
+}
+.date , .views {
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	letter-spacing: 0.02em;
+	color: #1C1C1C;
+	margin:0;
+	margin-top:-10px;
+}
+.event__info-date {
+	margin-right:40px;
+}
+.views {
+	margin-left:4px;
+}
+.view-icon {
+	background: url(../img/eye.png);
+	background-repeat: no-repeat;
+	background-size:92%;
+	width:18px;
+	height:20px;
+	position:relative;
+	top:9px;
+}
+button {
+	padding:0;
+	height:22px;
+	width:70px;
+}
+
+@media (max-width: 1090px) {
+
+
+.main{
+	margin-left: 20px;
+	margin-right: 20px;	
+	}
+
+}
+@media (max-width: 960px) {
+
+h2 {
+		font-size: 18px;
+		
+	}
+}
+@media (max-width: 720px) {
+
+h2 {
+	font-size: 16px;	
+   }
+}
+@media (max-width: 640px) {
+
+h2 {
+		font-size: 18px;
+		color: #000;
+		text-align: center;
+		margin-top: 32px;
+	}
+.text{
+		font-size: 13px;
+		text-indent: 28px;	
+	}
+.event__title {
+		height: unset;
+	    position: static;
+	    bottom: 4px;
+	    background-color: unset;
+	}
+}
+
+@media (max-width: 360px) {
+
+h2 {
+		font-size: 16px;
+
+	}
+p.date{
+	font-size: 14px;
+}
+.info-inline {
+	font-size: 14px;
+}
+.event__info-right {
+	padding-bottom: 3px;
+}
+.event__info-date {
+	margin-right:12px;
+}
+
+}

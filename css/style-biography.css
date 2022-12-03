@@ -1,0 +1,131 @@
+.biography-list {
+	height: 100%;
+}
+.biography-block {
+	min-height: 200px;
+	background-color:#F4F1F1;
+	border-radius: 15px;
+	margin-bottom:28px;
+	display: flex;
+	flex-direction: row;
+	margin-left: 20px;
+	margin-right: 20px;	
+}
+.biography-photo {
+	min-height: 430px;
+	width: 464px; /*363*/
+	background-color:#222;
+	border-radius: 15px 0px 0px 15px;	
+}
+.biography-info {
+	width:100%;
+	padding-left:32px;
+	padding-right:32px;
+	padding-bottom:16px;
+}
+.name-title {
+	font-family: copyright;
+	font-style: normal;
+	font-weight: 800; 
+	font-size: 21px;
+	line-height: 31px;
+	letter-spacing: 0.01em;
+	color: #1C1C1C;
+}
+.biography-text {
+	font-family: Arial;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 15px;
+	line-height: 167%;
+	letter-spacing: 0.02em;
+	color: #1C1C1C;
+	margin-top:14px;
+	margin-bottom:6px;
+}
+.bio-img1 {
+	background: url(../img/biography/biography-1.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bio-img2 {
+	background: url(../img/biography/biography-2.jpg);
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bio-img3 {
+	background: url(../img/biography/biography-3.jpg);
+	background-position: right -40px center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.indent {
+	width: 100%;
+	height: 36px;
+}
+
+@media (max-width: 740px) {
+
+.biography-block {
+	min-height: 200px;
+	background-color:#F4F1F1;
+	border-radius: 15px;
+	margin-bottom:28px;
+
+	display: flex;
+	flex-direction: column;
+
+	margin-left: 20px;
+	margin-right: 20px;
+
+	position: relative;
+
+	
+}
+.biography-photo {
+	min-height: 430px;
+	width: 100%; /*363*/
+	background-color:#222;
+	border-radius: 15px 15px 0px 0px;	
+}
+
+.biography-info {
+	width:100%;
+	padding: 0;
+	padding-bottom:16px;
+
+}
+
+.name-title {
+
+	font-family: copyright;
+	font-style: normal;
+	font-weight: 800; 
+	font-size: 21px;
+	line-height: 31px;
+	letter-spacing: 0.01em;
+	color: #1C1C1C;
+
+	margin-left:20px;
+}
+
+.biography-text {
+	font-family: Arial;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 15px;
+	line-height: 167%;
+	/* or 23px */
+
+	letter-spacing: 0.02em;
+
+	color: #1C1C1C;
+	margin-top:14px;
+	margin-bottom:6px;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+}

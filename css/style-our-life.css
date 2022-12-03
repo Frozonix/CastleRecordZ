@@ -1,0 +1,145 @@
+.events-list {
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 100%;
+	background-color:red;
+}
+.event-block-href {
+	text-decoration: none;
+}
+.event-block {
+	margin-left: 20px;
+	margin-right: 20px;
+	min-height: 200px;
+	background-color:#F4F1F1;
+	border-radius: 15px;
+	margin-bottom:28px;
+	display: flex;
+	flex-direction: row;	
+}
+.event-photo {
+	min-height: inherit;
+	width: 364px; /*363*/
+	background-color:#222;
+	border-radius: 15px 0px 0px 15px;
+}
+.event-img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 15px 0px 0px 15px;
+}
+.event-info {
+	width:100%;
+	padding-left:32px;
+	padding-right:32px;
+
+}
+.event-title {
+	font-family: copyright;
+	font-style: normal;
+	font-weight: 800; 
+	font-size: 21px;
+	line-height: 31px;
+	letter-spacing: 0.01em;
+	color: #1C1C1C;
+}
+.event-preview-text {
+	font-family: Arial;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 15px;
+	line-height: 167%;
+	letter-spacing: 0.02em;
+	color: #1C1C1C;
+	margin-bottom:16px;
+
+	min-height: 90px;
+}
+.event-date-read {
+	display: flex;
+	flex-direction: row;
+	align-self: flex-end;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	letter-spacing: 0.02em;	
+	color: #949494;
+	position: relative;
+	margin-top:16px;
+	padding-bottom:16px;
+	transition: 0.25s linear;
+}
+.event-date-read-container {
+	align-self: flex-end;
+}
+.event-date {margin:0;}
+.event-read {
+	margin:0;
+	position: absolute;
+	right:0;
+	margin-top:-17px;
+}
+.event-block:hover .event-date-read {
+	transition: 0.2s linear;
+	color:#ED1B24;
+}
+.main__pages-block {
+	display: flex;
+	justify-content: center;
+	padding-top: 24px;
+	padding-bottom: 64px;
+
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;  
+}
+.main__pages-ul-list {
+	padding: 0;
+	margin: 0;
+}
+.main__pages-ul-list li {
+	list-style-type: none;
+	display: inline-block;  
+}
+.num-page-li {
+	width: 40px;
+	text-align: center;
+	font-family: Arial;
+	font-size: 20px;
+	color: #1C1C1C;
+	transition: 0.2s linear;
+}
+.num-page-a {
+	text-decoration: none;
+	width: 0;
+	height: 23px;
+}
+.num-page-li:hover {
+	transition: 0.2s linear;
+	color:#ED1B24;
+}
+
+@media (max-width: 640px) {
+	.event-photo {
+		display:none;
+
+	}
+}
+@media (max-width: 440px) {
+	.event-read {
+		display:none;
+
+	}
+
+	.num-page-a {
+	text-decoration: none;
+	width: 0;
+	height: 23px;
+
+	margin-left:-15px;
+	margin-right:-15px;
+}
+
+}

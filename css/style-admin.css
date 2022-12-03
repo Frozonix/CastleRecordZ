@@ -1,0 +1,155 @@
+html {
+	display:flex;
+	justify-content:center;
+}
+
+p {
+	font-family: Arial;
+}
+.div-form {
+	
+	width: 500px;
+	height: 600px;
+
+	padding:0;
+	margin: 0;
+
+	border-radius:100px;
+	background: rgba(28, 28, 28, 0.82);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+	display: flex;
+	justify-content: center;
+
+}
+.main__form {
+	margin: 47px 0 0 0;
+}
+.mi {
+	display:block;
+	width:25px;
+	position:relative;
+	left:354px;
+	bottom:37px;
+	padding:0;
+	margin:0;
+	cursor:pointer;
+}
+.mi:hover {
+	filter: drop-shadow(0px 0px 3px rgba(255, 255, 255, 0.3));
+}
+
+.enter-p-form {
+
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 21px;
+	letter-spacing: 0.045em;
+
+	margin:10px 0 20px 0;
+}
+.input-login {
+
+	color:white;
+	background: transparent;
+	border: 0px;
+	border-bottom: 1px solid white;
+	width:320px;
+	outline:none;
+
+	font-size: 18px;
+
+	padding-left: 30px;
+	padding-right: 30px;
+
+}
+
+.input-password {
+
+	color:white;
+	background: transparent;
+	border: 0px;
+	border-bottom: 1px solid white;
+	width:320px;
+	outline:none;
+
+	font-size: 18px;
+	
+	padding-left: 30px;
+	padding-right: 30px;
+
+}
+.main__drop-form {
+	height:30px;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 6px;
+
+	display:flex;
+	align-items: center;
+
+	cursor: pointer;
+}
+
+.main__drop-form:hover {
+	background: rgba(255, 255, 255, 0.3);
+}
+.main__drop-form-text {
+	padding-left: 20px;
+	font-size: 16px;
+	font-weight: 500;
+}
+.main__div-down-triangle {
+	margin-left: auto;
+}
+.main__down-triangle {
+	padding: 0 20px 0 14px;
+	width:13px;
+}
+.fix {
+	position:relative;
+	top:30px;
+}
+.main__order-total {
+	display: flex;
+	align-items:center;
+	margin-top: 10px;
+}
+
+.main__p-form-sum {
+
+}
+.main__price {
+	display:flex;
+	justify-content:center;
+	margin-top: -10px;
+}
+.main__total-price {
+	font-family: IBM Plex Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 52px;
+	text-align: center;
+	letter-spacing: 0.045em;
+	width:200px;
+}
+.main__currency {
+	font-family: IBM Plex Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 31px;
+	text-align: center;
+	letter-spacing: 0.045em;
+}
+.main__order-button {
+	display:flex;
+	justify-content: center;
+	width: 120px;
+	height: 60px;
+	background: #6EB54D;
+	border-radius: 45px 0px 100px 45px;
+	margin-top: 18px;
+	cursor:pointer;
+}
